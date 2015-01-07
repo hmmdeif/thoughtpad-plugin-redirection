@@ -14,7 +14,7 @@ The plugin should be loaded using the [thoughtpad-plugin-manager](https://github
 var man = require('thoughtpad-plugin-manager'),
     tags = require('thoughtpad-plugin-redirection');
 
-yield thoughtpad.notify("html-precompile-all-request");
+yield thoughtpad.notify("html-postcompile-all-request");
 ```
 
 The plugin will emit a `html-compile-all-request` if additional languages are found in the config.
