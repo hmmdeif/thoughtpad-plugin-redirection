@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hmmdeif/thoughtpad-plugin-redirection.git"
+    "url": "https://github.com/thoughtpad/thoughtpad-plugin-redirection.git"
   },
   "dependencies": {  
-    "thoughtpad-fileWriter": "git://github.com/hmmdeif/thoughtpad-fileWriter.git#master"
+    "thoughtpad-fileWriter": "git://github.com/thoughtpad/thoughtpad-fileWriter.git#master"
   },
   "devDependencies": {
-    "thoughtpad-plugin-manager": "git://github.com/hmmdeif/thoughtpad-plugin-manager.git#master",
+    "thoughtpad-plugin-manager": "git://github.com/thoughtpad/thoughtpad-plugin-manager.git#master",
     "should": "~3.3.2",
     "mocha": "~1.21.4",
     "coveralls": "~2.11.2",
