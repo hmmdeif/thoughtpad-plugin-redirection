@@ -23,7 +23,7 @@ describe("redirection plugin", function () {
             res.should.be.true;
             yield fw.remakeDirectory(__dirname + '/pre_out/');
             done();
-        })();
+        }).catch(done);
     });
 
     it("should create files containing redirection links", function (done) {
@@ -44,6 +44,6 @@ describe("redirection plugin", function () {
 
             yield fw.remakeDirectory(__dirname + '/pre_out/');
             done();
-        })();
+        }).catch(done);
     });
 });
